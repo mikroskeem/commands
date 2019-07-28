@@ -28,7 +28,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>co.aikar</groupId>
+        <groupId>eu.mikroskeem.acf</groupId>
         <artifactId>acf-parent</artifactId>
         <version><!--VERSION-->0.5.0-SNAPSHOT<!--VERSION--></version>
         <relativePath>../pom.xml</relativePath>

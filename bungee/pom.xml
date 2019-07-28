@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>acf-parent</artifactId>
-        <groupId>co.aikar</groupId>
+        <groupId>eu.mikroskeem.acf</groupId>
         <version>0.5.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -24,7 +24,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>co.aikar</groupId>
+            <groupId>eu.mikroskeem.acf</groupId>
             <artifactId>acf-core</artifactId>
             <version><!--VERSION-->0.5.0-SNAPSHOT<!--VERSION--></version>
             <scope>compile</scope>

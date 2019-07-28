@@ -23,7 +23,7 @@
 
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>co.aikar</groupId>
+    <groupId>eu.mikroskeem.acf</groupId>
     <artifactId>acf-parent</artifactId>
     <version><!--VERSION-->0.5.0-SNAPSHOT<!--VERSION--></version>
     <packaging>pom</packaging>
@@ -39,12 +39,12 @@
 
     <distributionManagement>
         <repository>
-            <id>aikar</id>
-            <url>https://repo.aikar.co/content/repositories/aikar-release/</url>
+            <id>mikroskeem-repo</id>
+            <url>https://repo.wut.ee/repository/mikroskeem-repo</url>
         </repository>
         <snapshotRepository>
-            <id>aikar</id>
-            <url>https://repo.aikar.co/content/repositories/aikar-snapshots/</url>
+            <id>mikroskeem-repo</id>
+            <url>https://repo.wut.ee/repository/mikroskeem-repo</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -52,6 +52,10 @@
         <repository>
             <id>aikar</id>
             <url>https://repo.aikar.co/content/groups/aikar/</url>
+        </repository>
+        <repository>
+            <id>mikroskeem-repo</id>
+            <url>https://repo.wut.ee/repository/mikroskeem-repo</url>
         </repository>
     </repositories>
 
